@@ -1,0 +1,6 @@
+
+streamlit
+fpdf
+requests
+beautifulsoup4
+Pillow
