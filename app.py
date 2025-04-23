@@ -53,7 +53,7 @@ def generate_pdf(data):
     pdf.set_font("Arial", size=16)
     pdf.cell(200, 10, txt=data["title"], ln=True, align='C')
     pdf.set_font("Arial", size=12)
-    pdf.cell(200, 10, txt=f"Price: ₹{data['price']}", ln=True, align='L')
+    pdf.cell(200, 10, txt=f"Price: Rs. {data['price']}", ln=True, align='L')
 
     pdf.set_font("Arial", "B", 14)
     pdf.cell(200, 10, txt="Highlights", ln=True)
