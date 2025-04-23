@@ -1,0 +1,1 @@
+pip install selenium beautifulsoup4 fpdf qrcode Pillow webdriver-manager
